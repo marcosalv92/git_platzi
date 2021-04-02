@@ -14,7 +14,11 @@ var teclas = {
     RIGHT : 39
 
  };
+<<<<<<< HEAD
 document.addEventListener("keypress",paintKeydown);
+=======
+document.addEventListener("keydown",paintKeydown);
+>>>>>>> Canvas_Teclado
 
 function paintKeydown(evento)
 {   
