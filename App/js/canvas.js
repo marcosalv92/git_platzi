@@ -14,7 +14,7 @@ var teclas = {
     RIGHT : 39
 
  };
-document.addEventListener("keyup",paintKeydown);
+document.addEventListener("keydown",paintKeydown);
 
 function paintKeydown(evento)
 {   
